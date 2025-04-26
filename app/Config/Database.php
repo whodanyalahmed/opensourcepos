@@ -27,8 +27,8 @@ class Database extends Config
     public array $default = [
         'DSN' => '',
         'hostname' => 'localhost',
-        'username' => 'admin',
-        'password' => 'pointofsale',
+        'username' => 'root',
+        'password' => 'state320',
         'database' => 'ospos',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => 'ospos_',
@@ -58,8 +58,8 @@ class Database extends Config
     public array $tests = [
         'DSN' => '',
         'hostname' => 'localhost',
-        'username' => 'admin',
-        'password' => 'pointofsale',
+        'username' => 'root',
+        'password' => 'state320',
         'database' => 'ospos',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => 'ospos_',
@@ -91,8 +91,8 @@ class Database extends Config
     public $development = [
         'DSN' => '',
         'hostname' => 'localhost',
-        'username' => 'admin',
-        'password' => 'pointofsale',
+        'username' => 'root',
+        'password' => 'state320',
         'database' => 'ospos',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => 'ospos_',
